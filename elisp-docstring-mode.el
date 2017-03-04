@@ -42,6 +42,7 @@ Search up to LIMIT."
     (elisp-docstring-mode--find-variable 0 font-lock-variable-name-face prepend))
    "Keywords for `font-lock-mode'.")
 
+;;;###autoload
 (define-derived-mode elisp-docstring-mode text-mode
   "Elisp docstring mode"
   "Major mode for editing Emacs Lisp docstrings."
